@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54218cb9-4657-4688-9181-8b2ea4981710" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/build/classes/java/main/MyFirstProgramm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/build/classes/java/main/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/build/distributions/Sandbox.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/build/distributions/Sandbox.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/build/libs/Sandbox.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/build/scripts/Sandbox" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/build/scripts/Sandbox.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sandbox/src/main/java/mama/MyFirstProgramm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/src/main/java/MyFirstProgramm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/src/main/java/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/src/main/java/mama/Point.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/Sandbox/.gradle/" />
@@ -48,7 +38,18 @@
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="252" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="252" />
         </counts>
       </usages-collector>
     </session>
@@ -56,23 +57,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sandbox/src/main/java/MyFirstProgramm.java">
+        <entry file="file://$PROJECT_DIR$/Sandbox/src/main/java/mama/MyFirstProgramm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
+            <state relative-caret-position="204">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
               <folding>
-                <element signature="e#74#75#0" expanded="true" />
-                <element signature="e#123#124#0" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sandbox/src/main/java/Point.java">
+        <entry file="file://$PROJECT_DIR$/Sandbox/src/main/java/mama/Point.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -298,8 +299,9 @@
     <option name="modificationStamps">
       <map>
         <entry key="$PROJECT_DIR$/Sandbox" value="4721781669204" />
+        <entry key="$PROJECT_DIR$/Sandbox/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/Sandbox/build.gradle" value="632330939" />
-        <entry key="$PROJECT_DIR$/Sandbox/gradle/wrapper/gradle-wrapper.properties" value="1190438490" />
+        <entry key="$PROJECT_DIR$/Sandbox/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -414,8 +416,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Sandbox/src/main/java/MyFirstProgramm.java" />
         <option value="$PROJECT_DIR$/Sandbox/src/main/java/Point.java" />
+        <option value="$PROJECT_DIR$/Sandbox/src/main/java/MyFirstProgramm.java" />
+        <option value="$PROJECT_DIR$/Sandbox/src/main/java/mama/Point.java" />
+        <option value="$PROJECT_DIR$/Sandbox/src/main/java/mama/MyFirstProgramm.java" />
       </list>
     </option>
   </component>
@@ -430,8 +434,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -444,20 +446,57 @@
               <item name="JavaForTesters" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="Sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaForTesters" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaForTesters" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaForTesters" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaForTesters" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mama" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573927304705" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573928772801" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Sandbox" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="mama" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -473,7 +512,7 @@
   </component>
   <component name="RunManager">
     <configuration name="MyFirstProgramm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyFirstProgramm" />
+      <option name="MAIN_CLASS_NAME" value="mama.MyFirstProgramm" />
       <module name="Sandbox.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -500,8 +539,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.2588997" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.262945" />
       <window_info id="Structure" order="1" sideWeight="0.50121653" side_tool="true" weight="0.25080907" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -509,8 +549,8 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32794458" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -539,20 +579,20 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sandbox/src/main/java/Point.java">
+    <entry file="file://$PROJECT_DIR$/Sandbox/src/main/java/mama/Point.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sandbox/src/main/java/MyFirstProgramm.java">
+    <entry file="file://$PROJECT_DIR$/Sandbox/src/main/java/mama/MyFirstProgramm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        <state relative-caret-position="204">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
           <folding>
-            <element signature="e#74#75#0" expanded="true" />
-            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
           </folding>
         </state>
       </provider>
